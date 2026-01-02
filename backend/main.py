@@ -13,14 +13,18 @@ async def match_trial(file: UploadFile):
     criteria = extract_criteria(text)
 
     db = session_local()
-    patients = db.query(Patient).all()
+    try:
+        patients = db.query(Patient).all()
 
-    results = []
-    for p in patients:
-        eligible = check_eligibility(p, criteria)
-        results.append({
-            "patient_id": p.patient_id,
-            "eligible": eligible
-        })
-
-    return results
+        results = []
+        for p in patients:
+            result = check_eligibility(p, criteria)
+            results.append({
+                "patient_id": p.patient_id,
+                "eligible": result['eligible'],
+                "score": result['score'],
+                "explanation": result['explanation']
+            })
+        return results
+    finally:
+        db.close()
