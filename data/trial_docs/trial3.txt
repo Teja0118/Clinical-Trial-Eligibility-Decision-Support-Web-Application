@@ -1,0 +1,5 @@
+Inclusion Criteria:
+Patients aged between 50 and 70 with Diabetes
+
+Exclusion Criteria:
+Patients below 50

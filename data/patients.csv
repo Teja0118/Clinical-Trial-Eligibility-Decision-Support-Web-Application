@@ -1,0 +1,13 @@
+patient_id,age,gender,condition,medication
+P001,55,Male,Diabetes,Metformin
+P002,30,Female,Hypertension,Amlodipine
+P003,70,Male,Diabetes,Insulin
+P004,45,Female,Diabetes,Metformin
+P005,60,Male,Hypertension,Amlodipine
+P006,25,Female,Asthma,Salbutamol
+P007,18,Male,Diabetes,Metformin
+P008,65,Female,Diabetes,Insulin
+P009,40,Male,Hypertension,Lisinopril
+P010,50,Female,Diabetes,Metformin
+P011,35,Male,Asthma,Budesonide
+P012,62,Female,Diabetes,Metformin
