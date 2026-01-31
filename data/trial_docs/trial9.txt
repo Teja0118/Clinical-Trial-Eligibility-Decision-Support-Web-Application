@@ -1,0 +1,7 @@
+Inclusion Criteria:
+Patients aged between 50 and 75 years
+Diagnosed with Coronary Artery Disease
+
+Exclusion Criteria:
+Patients with Chronic Kidney Disease
+Patients aged below 50 years

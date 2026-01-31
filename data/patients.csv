@@ -3,11 +3,299 @@ P001,55,Male,Diabetes,Metformin
 P002,30,Female,Hypertension,Amlodipine
 P003,70,Male,Diabetes,Insulin
 P004,45,Female,Diabetes,Metformin
-P005,60,Male,Hypertension,Amlodipine
+P005,60,Male,Hypertension,Lisinopril
 P006,25,Female,Asthma,Salbutamol
-P007,18,Male,Diabetes,Metformin
+P007,18,Male,Asthma,Budesonide
 P008,65,Female,Diabetes,Insulin
-P009,40,Male,Hypertension,Lisinopril
+P009,40,Male,Hypertension,Amlodipine
 P010,50,Female,Diabetes,Metformin
 P011,35,Male,Asthma,Budesonide
 P012,62,Female,Diabetes,Metformin
+P013,58,Male,Hyperlipidemia,Atorvastatin
+P014,63,Female,Hyperlipidemia,Rosuvastatin
+P015,47,Male,Coronary Artery Disease,Aspirin
+P016,52,Female,Coronary Artery Disease,Clopidogrel
+P017,44,Male,Hypothyroidism,Levothyroxine
+P018,68,Female,Chronic Kidney Disease,Furosemide
+P019,71,Male,Chronic Kidney Disease,Erythropoietin
+P020,29,Female,Asthma,Salbutamol
+P021,56,Male,Diabetes,Metformin
+P022,61,Female,Hypertension,Lisinopril
+P023,34,Male,Asthma,Budesonide
+P024,48,Female,Diabetes,Metformin
+P025,67,Male,Hyperlipidemia,Atorvastatin
+P026,59,Female,Hyperlipidemia,Rosuvastatin
+P027,53,Male,Coronary Artery Disease,Aspirin
+P028,66,Female,Coronary Artery Disease,Clopidogrel
+P029,41,Male,Hypothyroidism,Levothyroxine
+P030,72,Female,Chronic Kidney Disease,Furosemide
+P031,69,Male,Chronic Kidney Disease,Erythropoietin
+P032,27,Female,Asthma,Salbutamol
+P033,54,Male,Diabetes,Metformin
+P034,60,Female,Hypertension,Amlodipine
+P035,36,Male,Asthma,Budesonide
+P036,49,Female,Diabetes,Metformin
+P037,65,Male,Hyperlipidemia,Atorvastatin
+P038,58,Female,Hyperlipidemia,Rosuvastatin
+P039,51,Male,Coronary Artery Disease,Aspirin
+P040,64,Female,Coronary Artery Disease,Clopidogrel
+P041,43,Male,Hypothyroidism,Levothyroxine
+P042,70,Female,Chronic Kidney Disease,Furosemide
+P043,73,Male,Chronic Kidney Disease,Erythropoietin
+P044,31,Female,Asthma,Salbutamol
+P045,57,Male,Diabetes,Metformin
+P046,62,Female,Hypertension,Lisinopril
+P047,38,Male,Asthma,Budesonide
+P048,46,Female,Diabetes,Metformin
+P049,68,Male,Hyperlipidemia,Atorvastatin
+P050,61,Female,Hyperlipidemia,Rosuvastatin
+P051,55,Male,Coronary Artery Disease,Aspirin
+P052,67,Female,Coronary Artery Disease,Clopidogrel
+P053,42,Male,Hypothyroidism,Levothyroxine
+P054,74,Female,Chronic Kidney Disease,Furosemide
+P055,71,Male,Chronic Kidney Disease,Erythropoietin
+P056,28,Female,Asthma,Salbutamol
+P057,59,Male,Diabetes,Metformin
+P058,63,Female,Hypertension,Amlodipine
+P059,33,Male,Asthma,Budesonide
+P060,50,Female,Diabetes,Metformin
+P061,72,Male,Diabetes,Insulin
+P062,26,Female,Asthma,Salbutamol
+P063,54,Male,Hypertension,Lisinopril
+P064,39,Female,Diabetes,Metformin
+P065,34,Male,Asthma,Budesonide
+P066,58,Female,Hyperlipidemia,Atorvastatin
+P067,63,Male,Hyperlipidemia,Rosuvastatin
+P068,47,Female,Coronary Artery Disease,Aspirin
+P069,66,Male,Coronary Artery Disease,Clopidogrel
+P070,41,Female,Hypothyroidism,Levothyroxine
+P071,70,Male,Chronic Kidney Disease,Furosemide
+P072,74,Female,Chronic Kidney Disease,Erythropoietin
+P073,29,Male,Asthma,Salbutamol
+P074,56,Female,Diabetes,Metformin
+P075,61,Male,Hypertension,Amlodipine
+P076,35,Female,Asthma,Budesonide
+P077,48,Male,Diabetes,Metformin
+P078,65,Female,Hyperlipidemia,Atorvastatin
+P079,59,Male,Hyperlipidemia,Rosuvastatin
+P080,53,Female,Coronary Artery Disease,Aspirin
+P081,67,Male,Coronary Artery Disease,Clopidogrel
+P082,42,Female,Hypothyroidism,Levothyroxine
+P083,73,Male,Chronic Kidney Disease,Furosemide
+P084,71,Female,Chronic Kidney Disease,Erythropoietin
+P085,31,Male,Asthma,Salbutamol
+P086,57,Female,Diabetes,Metformin
+P087,62,Male,Hypertension,Lisinopril
+P088,38,Female,Asthma,Budesonide
+P089,50,Male,Diabetes,Metformin
+P090,68,Female,Hyperlipidemia,Atorvastatin
+P091,60,Male,Hyperlipidemia,Rosuvastatin
+P092,55,Female,Coronary Artery Disease,Aspirin
+P093,69,Male,Coronary Artery Disease,Clopidogrel
+P094,44,Female,Hypothyroidism,Levothyroxine
+P095,72,Male,Chronic Kidney Disease,Furosemide
+P096,75,Female,Chronic Kidney Disease,Erythropoietin
+P097,28,Male,Asthma,Salbutamol
+P098,58,Female,Diabetes,Metformin
+P099,63,Male,Hypertension,Amlodipine
+P100,36,Female,Asthma,Budesonide
+P101,49,Male,Diabetes,Metformin
+P102,66,Female,Hyperlipidemia,Atorvastatin
+P103,61,Male,Hyperlipidemia,Rosuvastatin
+P104,54,Female,Coronary Artery Disease,Aspirin
+P105,68,Male,Coronary Artery Disease,Clopidogrel
+P106,43,Female,Hypothyroidism,Levothyroxine
+P107,71,Male,Chronic Kidney Disease,Furosemide
+P108,74,Female,Chronic Kidney Disease,Erythropoietin
+P109,30,Male,Asthma,Salbutamol
+P110,59,Female,Diabetes,Metformin
+P111,64,Male,Hypertension,Lisinopril
+P112,37,Female,Asthma,Budesonide
+P113,51,Male,Diabetes,Metformin
+P114,69,Female,Hyperlipidemia,Atorvastatin
+P115,62,Male,Hyperlipidemia,Rosuvastatin
+P116,56,Female,Coronary Artery Disease,Aspirin
+P117,70,Male,Coronary Artery Disease,Clopidogrel
+P118,45,Female,Hypothyroidism,Levothyroxine
+P119,73,Male,Chronic Kidney Disease,Furosemide
+P120,76,Female,Chronic Kidney Disease,Erythropoietin
+P121,71,Male,Diabetes,Insulin
+P122,27,Female,Asthma,Salbutamol
+P123,55,Male,Hypertension,Amlodipine
+P124,42,Female,Diabetes,Metformin
+P125,34,Male,Asthma,Budesonide
+P126,59,Female,Hyperlipidemia,Atorvastatin
+P127,64,Male,Hyperlipidemia,Rosuvastatin
+P128,48,Female,Coronary Artery Disease,Aspirin
+P129,67,Male,Coronary Artery Disease,Clopidogrel
+P130,43,Female,Hypothyroidism,Levothyroxine
+P131,72,Male,Chronic Kidney Disease,Furosemide
+P132,75,Female,Chronic Kidney Disease,Erythropoietin
+P133,30,Male,Asthma,Salbutamol
+P134,56,Female,Diabetes,Metformin
+P135,61,Male,Hypertension,Lisinopril
+P136,36,Female,Asthma,Budesonide
+P137,49,Male,Diabetes,Metformin
+P138,66,Female,Hyperlipidemia,Atorvastatin
+P139,60,Male,Hyperlipidemia,Rosuvastatin
+P140,54,Female,Coronary Artery Disease,Aspirin
+P141,68,Male,Coronary Artery Disease,Clopidogrel
+P142,44,Female,Hypothyroidism,Levothyroxine
+P143,73,Male,Chronic Kidney Disease,Furosemide
+P144,76,Female,Chronic Kidney Disease,Erythropoietin
+P145,28,Male,Asthma,Salbutamol
+P146,58,Female,Diabetes,Metformin
+P147,63,Male,Hypertension,Amlodipine
+P148,37,Female,Asthma,Budesonide
+P149,51,Male,Diabetes,Metformin
+P150,69,Female,Hyperlipidemia,Atorvastatin
+P151,62,Male,Hyperlipidemia,Rosuvastatin
+P152,55,Female,Coronary Artery Disease,Aspirin
+P153,70,Male,Coronary Artery Disease,Clopidogrel
+P154,45,Female,Hypothyroidism,Levothyroxine
+P155,74,Male,Chronic Kidney Disease,Furosemide
+P156,77,Female,Chronic Kidney Disease,Erythropoietin
+P157,31,Male,Asthma,Salbutamol
+P158,59,Female,Diabetes,Metformin
+P159,64,Male,Hypertension,Lisinopril
+P160,38,Female,Asthma,Budesonide
+P161,52,Male,Diabetes,Metformin
+P162,70,Female,Hyperlipidemia,Atorvastatin
+P163,63,Male,Hyperlipidemia,Rosuvastatin
+P164,56,Female,Coronary Artery Disease,Aspirin
+P165,71,Male,Coronary Artery Disease,Clopidogrel
+P166,46,Female,Hypothyroidism,Levothyroxine
+P167,75,Male,Chronic Kidney Disease,Furosemide
+P168,78,Female,Chronic Kidney Disease,Erythropoietin
+P169,29,Male,Asthma,Salbutamol
+P170,60,Female,Diabetes,Metformin
+P171,65,Male,Hypertension,Amlodipine
+P172,39,Female,Asthma,Budesonide
+P173,53,Male,Diabetes,Metformin
+P174,71,Female,Hyperlipidemia,Atorvastatin
+P175,64,Male,Hyperlipidemia,Rosuvastatin
+P176,57,Female,Coronary Artery Disease,Aspirin
+P177,72,Male,Coronary Artery Disease,Clopidogrel
+P178,47,Female,Hypothyroidism,Levothyroxine
+P179,76,Male,Chronic Kidney Disease,Furosemide
+P180,79,Female,Chronic Kidney Disease,Erythropoietin
+P181,72,Male,Diabetes,Insulin
+P182,28,Female,Asthma,Salbutamol
+P183,56,Male,Hypertension,Lisinopril
+P184,43,Female,Diabetes,Metformin
+P185,35,Male,Asthma,Budesonide
+P186,60,Female,Hyperlipidemia,Atorvastatin
+P187,65,Male,Hyperlipidemia,Rosuvastatin
+P188,49,Female,Coronary Artery Disease,Aspirin
+P189,68,Male,Coronary Artery Disease,Clopidogrel
+P190,44,Female,Hypothyroidism,Levothyroxine
+P191,73,Male,Chronic Kidney Disease,Furosemide
+P192,76,Female,Chronic Kidney Disease,Erythropoietin
+P193,30,Male,Asthma,Salbutamol
+P194,57,Female,Diabetes,Metformin
+P195,62,Male,Hypertension,Amlodipine
+P196,36,Female,Asthma,Budesonide
+P197,50,Male,Diabetes,Metformin
+P198,67,Female,Hyperlipidemia,Atorvastatin
+P199,61,Male,Hyperlipidemia,Rosuvastatin
+P200,55,Female,Coronary Artery Disease,Aspirin
+P201,69,Male,Coronary Artery Disease,Clopidogrel
+P202,45,Female,Hypothyroidism,Levothyroxine
+P203,74,Male,Chronic Kidney Disease,Furosemide
+P204,77,Female,Chronic Kidney Disease,Erythropoietin
+P205,29,Male,Asthma,Salbutamol
+P206,58,Female,Diabetes,Metformin
+P207,63,Male,Hypertension,Lisinopril
+P208,38,Female,Asthma,Budesonide
+P209,52,Male,Diabetes,Metformin
+P210,70,Female,Hyperlipidemia,Atorvastatin
+P211,64,Male,Hyperlipidemia,Rosuvastatin
+P212,56,Female,Coronary Artery Disease,Aspirin
+P213,71,Male,Coronary Artery Disease,Clopidogrel
+P214,46,Female,Hypothyroidism,Levothyroxine
+P215,75,Male,Chronic Kidney Disease,Furosemide
+P216,78,Female,Chronic Kidney Disease,Erythropoietin
+P217,31,Male,Asthma,Salbutamol
+P218,59,Female,Diabetes,Metformin
+P219,64,Male,Hypertension,Amlodipine
+P220,39,Female,Asthma,Budesonide
+P221,53,Male,Diabetes,Metformin
+P222,71,Female,Hyperlipidemia,Atorvastatin
+P223,65,Male,Hyperlipidemia,Rosuvastatin
+P224,57,Female,Coronary Artery Disease,Aspirin
+P225,72,Male,Coronary Artery Disease,Clopidogrel
+P226,47,Female,Hypothyroidism,Levothyroxine
+P227,76,Male,Chronic Kidney Disease,Furosemide
+P228,79,Female,Chronic Kidney Disease,Erythropoietin
+P229,30,Male,Asthma,Salbutamol
+P230,60,Female,Diabetes,Metformin
+P231,65,Male,Hypertension,Lisinopril
+P232,40,Female,Asthma,Budesonide
+P233,54,Male,Diabetes,Metformin
+P234,72,Female,Hyperlipidemia,Atorvastatin
+P235,66,Male,Hyperlipidemia,Rosuvastatin
+P236,58,Female,Coronary Artery Disease,Aspirin
+P237,73,Male,Coronary Artery Disease,Clopidogrel
+P238,48,Female,Hypothyroidism,Levothyroxine
+P239,77,Male,Chronic Kidney Disease,Furosemide
+P240,80,Female,Chronic Kidney Disease,Erythropoietin
+P241,73,Male,Diabetes,Insulin
+P242,29,Female,Asthma,Salbutamol
+P243,57,Male,Hypertension,Amlodipine
+P244,44,Female,Diabetes,Metformin
+P245,35,Male,Asthma,Budesonide
+P246,61,Female,Hyperlipidemia,Atorvastatin
+P247,66,Male,Hyperlipidemia,Rosuvastatin
+P248,50,Female,Coronary Artery Disease,Aspirin
+P249,69,Male,Coronary Artery Disease,Clopidogrel
+P250,45,Female,Hypothyroidism,Levothyroxine
+P251,74,Male,Chronic Kidney Disease,Furosemide
+P252,77,Female,Chronic Kidney Disease,Erythropoietin
+P253,31,Male,Asthma,Salbutamol
+P254,58,Female,Diabetes,Metformin
+P255,63,Male,Hypertension,Lisinopril
+P256,36,Female,Asthma,Budesonide
+P257,51,Male,Diabetes,Metformin
+P258,70,Female,Hyperlipidemia,Atorvastatin
+P259,64,Male,Hyperlipidemia,Rosuvastatin
+P260,56,Female,Coronary Artery Disease,Aspirin
+P261,71,Male,Coronary Artery Disease,Clopidogrel
+P262,46,Female,Hypothyroidism,Levothyroxine
+P263,75,Male,Chronic Kidney Disease,Furosemide
+P264,78,Female,Chronic Kidney Disease,Erythropoietin
+P265,32,Male,Asthma,Salbutamol
+P266,59,Female,Diabetes,Metformin
+P267,64,Male,Hypertension,Amlodipine
+P268,39,Female,Asthma,Budesonide
+P269,52,Male,Diabetes,Metformin
+P270,71,Female,Hyperlipidemia,Atorvastatin
+P271,65,Male,Hyperlipidemia,Rosuvastatin
+P272,57,Female,Coronary Artery Disease,Aspirin
+P273,72,Male,Coronary Artery Disease,Clopidogrel
+P274,48,Female,Hypothyroidism,Levothyroxine
+P275,76,Male,Chronic Kidney Disease,Furosemide
+P276,79,Female,Chronic Kidney Disease,Erythropoietin
+P277,33,Male,Asthma,Salbutamol
+P278,60,Female,Diabetes,Metformin
+P279,65,Male,Hypertension,Lisinopril
+P280,40,Female,Asthma,Budesonide
+P281,54,Male,Diabetes,Metformin
+P282,72,Female,Hyperlipidemia,Atorvastatin
+P283,66,Male,Hyperlipidemia,Rosuvastatin
+P284,58,Female,Coronary Artery Disease,Aspirin
+P285,73,Male,Coronary Artery Disease,Clopidogrel
+P286,49,Female,Hypothyroidism,Levothyroxine
+P287,77,Male,Chronic Kidney Disease,Furosemide
+P288,80,Female,Chronic Kidney Disease,Erythropoietin
+P289,34,Male,Asthma,Salbutamol
+P290,61,Female,Diabetes,Metformin
+P291,66,Male,Hypertension,Amlodipine
+P292,41,Female,Asthma,Budesonide
+P293,55,Male,Diabetes,Metformin
+P294,73,Female,Hyperlipidemia,Atorvastatin
+P295,67,Male,Hyperlipidemia,Rosuvastatin
+P296,59,Female,Coronary Artery Disease,Aspirin
+P297,74,Male,Coronary Artery Disease,Clopidogrel
+P298,50,Female,Hypothyroidism,Levothyroxine
+P299,78,Male,Chronic Kidney Disease,Furosemide
+P300,81,Female,Chronic Kidney Disease,Erythropoietin

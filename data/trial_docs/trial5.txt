@@ -1,0 +1,7 @@
+Inclusion Criteria:
+Patients aged between 30 and 60 years
+Diagnosed with Hypertension
+
+Exclusion Criteria:
+Patients aged below 30 years
+Patients aged above 60 years

@@ -22,9 +22,9 @@ async def match_trial(file: UploadFile):
             results.append({
                 "patient_id": p.patient_id,
                 "eligible": result['eligible'],
-                "score": result['score'],
                 "explanation": result['explanation']
             })
+
         return results
     finally:
         db.close()

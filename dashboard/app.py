@@ -34,9 +34,9 @@ if trial_file is not None:
             st.warning("No Patients found in the System!")
         else:
             df = pd.DataFrame(results)
-
-            # Mapping output to proper format
-            df["eligible"] = df["eligible"].apply(lambda x: "Eligible" if x else "Not Eligible")
+            df["eligible"] = df["eligible"].apply(
+                lambda x: "Eligible" if x else "Not Eligible"
+            )
 
             st.success("Eligibility Evaluation completed.")
             st.subheader("Eligibility Results")

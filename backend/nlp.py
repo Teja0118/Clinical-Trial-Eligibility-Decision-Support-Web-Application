@@ -1,41 +1,103 @@
-import spacy
 import re
 
-nlp = spacy.load("en_core_web_sm")
-
 def extract_criteria(text: str):
-    text_lower = text.lower()
+    text = text.lower()
 
     criteria = {
-        "age_min": None, 
-        "age_max": None, 
-        "condition": None
+        "inclusion": {
+            "age_min": None,
+            "age_max": None,
+            "condition": None,
+            "gender": None
+        },
+        "exclusion": {
+            "age_min": None,
+            "age_max": None,
+            "conditions": [],
+            "medications": [],
+            "gender": None
+        }
     }
 
-    # Extract age range: "between X and Y"
-    age_range = re.search(r'between\s+(\d+)\s+and\s+(\d+)', text_lower)
-    if age_range:
-        criteria["age_min"] = int(age_range.group(1))
-        criteria["age_max"] = int(age_range.group(2))
+    # -------------------------
+    # AGE EXTRACTION
+    # -------------------------
 
-    # Extract lower range exclusion: "below X"
-    below_age = re.search(r'below\s+(\d+)', text_lower)
-    if below_age:
-        criteria["age_min"] = int(below_age.group(1))
+    # between X and Y
+    match = re.search(r'between\s+(\d+)\s+and\s+(\d+)', text)
+    if match:
+        criteria["inclusion"]["age_min"] = int(match.group(1))
+        criteria["inclusion"]["age_max"] = int(match.group(2))
 
-    # Extract upper range exclusion: "above X"
-    above_age = re.search(r'above\s+(\d+)', text_lower)
-    if above_age:
-        criteria["age_max"] = int(above_age.group(1))
+    # below X
+    match = re.search(r'below\s+(\d+)', text)
+    if match:
+        criteria["exclusion"]["age_min"] = int(match.group(1))
 
-    # Extract Condition (keyboard-based)
-    conditions = ["diabetes", "hypertension", "asthma"]
+    # above X
+    match = re.search(r'above\s+(\d+)', text)
+    if match:
+        criteria["exclusion"]["age_max"] = int(match.group(1))
+
+    # -------------------------
+    # CONDITION EXTRACTION
+    # -------------------------
+
+    conditions = [
+        "diabetes",
+        "hypertension",
+        "asthma",
+        "hyperlipidemia",
+        "coronary artery disease",
+        "chronic kidney disease",
+        "hypothyroidism"
+    ]
+
     for cond in conditions:
-        if cond in conditions:
-            if cond in text_lower:
-                criteria["condition"] = cond.capitalize()
-                break
-        
-    return criteria
+        if f"with {cond}" in text or f"diagnosed with {cond}" in text:
+            criteria["inclusion"]["condition"] = cond.title()
 
-    
+        if f"exclude patients with {cond}" in text:
+            criteria["exclusion"]["conditions"].append(cond.title())
+
+    # -------------------------
+    # GENDER EXTRACTION
+    # -------------------------
+
+    if "female patients" in text:
+        criteria["inclusion"]["gender"] = "Female"
+
+    if "male patients" in text:
+        criteria["inclusion"]["gender"] = "Male"
+
+    if "exclude male patients" in text:
+        criteria["exclusion"]["gender"] = "Male"
+
+    if "exclude female patients" in text:
+        criteria["exclusion"]["gender"] = "Female"
+
+    # -------------------------
+    # MEDICATION EXTRACTION (EXCLUSION ONLY)
+    # -------------------------
+
+    medications = [
+        "insulin",
+        "metformin",
+        "amlodipine",
+        "lisinopril",
+        "salbutamol",
+        "budesonide",
+        "atorvastatin",
+        "rosuvastatin",
+        "aspirin",
+        "clopidogrel",
+        "levothyroxine",
+        "erythropoietin",
+        "furosemide"
+    ]
+
+    for med in medications:
+        if f"taking {med}" in text:
+            criteria["exclusion"]["medications"].append(med.title())
+
+    return criteria

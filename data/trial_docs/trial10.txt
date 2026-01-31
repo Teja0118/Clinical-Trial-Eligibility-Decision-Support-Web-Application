@@ -1,0 +1,7 @@
+Inclusion Criteria:
+Patients aged between 35 and 65 years
+Diagnosed with Hyperlipidemia
+
+Exclusion Criteria:
+Patients aged below 35 years
+Patients aged above 65 years
